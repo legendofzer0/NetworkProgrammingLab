@@ -1,8 +1,6 @@
 package NetworkProgramming.Multicast;
 
-import java.net.DatagramPacket;
-import java.net.InetAddress;
-import java.net.MulticastSocket;
+import java.net.*;
 
 public class MulticastReceiver {
     public static void main(String[] args) {

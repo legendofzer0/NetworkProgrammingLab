@@ -11,9 +11,6 @@ public class SecureClientDemo {
             SSLSocketFactory factory = (SSLSocketFactory) SSLSocketFactory.getDefault();
             SSLSocket sslSocket = (SSLSocket) factory.createSocket(host, port);
 
-            sslSocket.startHandshake();
-
-
             PrintWriter out = new PrintWriter(sslSocket.getOutputStream(), true);
             BufferedReader in = new BufferedReader(new InputStreamReader(sslSocket.getInputStream()));
 

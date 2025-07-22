@@ -1,7 +1,6 @@
 package NetworkProgramming.RMI;
 
-import java.rmi.registry.LocateRegistry;
-import java.rmi.registry.Registry;
+import java.rmi.registry.*;
 
 public class Client {
     public static void main(String[] args) {
